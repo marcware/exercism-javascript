@@ -4,8 +4,8 @@
 //
 
 export const twoFer = (name) => {
-  console.log(name);
   let distribution = "One for you, one for me.";
+  
   if (name === "Alice") {
     distribution = "One for Alice, one for me.";
   } else if (name === "Bob") {
