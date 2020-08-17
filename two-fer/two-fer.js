@@ -3,10 +3,13 @@
 // convenience to get you started writing code faster.
 //
 
-export const twoFer = () => {
+export const twoFer = (name) => {
+  console.log(name);
   let distribution = "One for you, one for me.";
-  if (twoFer === "Alice") {
+  if (name === "Alice") {
     distribution = "One for Alice, one for me.";
+  } else if (name === "Bob") {
+    distribution = "One for Bob, one for me.";
   }
   return distribution;
 };
