@@ -4,5 +4,9 @@
 //
 
 export const twoFer = () => {
-  return "One for you, one for me.";
+  let distribution = "One for you, one for me.";
+  if (twoFer === "Alice") {
+    distribution = "One for Alice, one for me.";
+  }
+  return distribution;
 };
